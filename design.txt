@@ -1,0 +1,127 @@
+Here is a design document that integrates the core mechanics of DURF with elements from Warrior, Rogue & Mage (WR&M) and outlines how to manage traversal and mapping in adventuring sites, reflecting our conversation.
+
+--------------------------------------------------------------------------------
+DURF Expanded: A Design Document
+1. Core Philosophy and Intent
+This expanded version of DURF aims to retain its simple, lightweight, and OSR-style foundation while incorporating modern ideas like reduced bookkeeping, quick character generation, and a straightforward advantage system. DURF's creator explicitly designed the system to be "hacked, pulled apart and built on top of," making it an ideal candidate for integrating additional mechanics. This document outlines how elements from WR&M can enhance character depth, player agency, and the overall adventure experience.
+2. Character Creation and Abilities
+Player Characters (PCs) are defined by a set of attributes, now augmented with skills and talents for greater specialization.
+• 2.1. Attributes: Each PC has three core attributes:
+    ◦ Strength (STR): Physical strength and endurance.
+    ◦ Dexterity (DEX): Finesse and agility.
+    ◦ Willpower (WIL): Charisma and mental endurance, essential for spellcasting.
+    ◦ Attribute Scores: Roll a d3 (d6 halved and rounded up) for each attribute score.
+• 2.2. Hit Dice (HD) & Inventory Slots:
+    ◦ PCs start with one Hit Die (HD).
+    ◦ Inventory slots are equal to 10 + their STR. These slots are used for carrying items and tracking accumulated Stress.
+• 2.3. Belongings & Starting Wealth:
+    ◦ PCs begin with two Supplies and a dagger.
+    ◦ Three additional belongings are determined by rolling 3d40 on a specific table, re-rolling identical results.
+    ◦ Starting gold is 2d6 x 5 GP.
+• 2.4. Skills (WR&M Integration):
+    ◦ Each character is further detailed by skills acquired over time, such as Athletics, Thievery, or Alchemy [User's previous turn based on 49].
+    ◦ During character creation, each PC chooses three skills [User's previous turn based on 49].
+    ◦ When making an attribute check where a chosen skill is relevant, the PC gains a +2 bonus to the roll's result [User's previous turn based on 52].
+    ◦ A skill cannot be chosen if the relevant attribute is ranked at 0.
+• 2.5. Talents (WR&M Integration):
+    ◦ Talents grant PCs special abilities that differentiate them without requiring a dice roll for use [User's previous turn based on 50].
+    ◦ PCs choose one talent at character creation, or as an option when gaining a new HD [User's previous turn based on 50].
+    ◦ Examples include combat abilities like "Massive Attack" (add Warrior attribute to melee damage once per combat) or utility talents like "Hunter" (provide food for a party) [User's previous turn based on 95, 93, 94].
+• 2.6. Non-Human Player Characters (WR&M Integration - Optional):
+    ◦ Players may choose to play non-human races such as Elves, Dwarves, or Halflings [User's previous turn based on 96].
+    ◦ Each race comes with racial talents that provide specific advantages and sometimes drawbacks [User's previous turn based on 97, 101]. For instance, Elves might have "Exceptional Attribute (Mage)" and "Sixth Sense," while Dwarves might have "Exceptional Attribute (Warrior)" and "Craftsman" [User's previous turn based on 97, 98].
+3. Gameplay Mechanics
+The core DURF mechanics are retained, with WR&M additions providing more player agency and exciting outcomes.
+• 3.1. Action Rolls & Saving Throws:
+    ◦ When an action's success is uncertain, a player rolls a d20 and adds their relevant attribute score. A result over 15 is a success.
+    ◦ Saving throws (saves) are action rolls to resist effects or avoid harm.
+• 3.2. Opposed Rolls:
+    ◦ When a PC's action is resisted by an NPC, both sides make an action roll (NPCs use their Skill score). The side with the highest result wins. Ties are decided by the GM.
+• 3.3. Buffs & Breaks:
+    ◦ Situations can grant Buffs (advantage) or Breaks (disadvantage), which cancel each other out.
+    ◦ For each net Buff or Break, the player rolls an additional d6. The highest d6 roll is added for Buffs or subtracted for Breaks from the final d20 result.
+• 3.4. Inventory & Stress:
+    ◦ A PC's inventory slots are used to carry items and track Stress.
+    ◦ Stress is accumulated from certain actions and situations. Each instance of Stress takes up an inventory slot.
+    ◦ Spending a day resting in a safe location removes all Stress.
+• 3.5. Pushing a Character:
+    ◦ Before an action roll, if a PC has an empty inventory slot, the player can choose to "push" their character to gain a Buff on the roll, taking one Stress for each push.
+• 3.6. Fate Points (WR&M Integration):
+    ◦ PCs will have Fate points (starting with an amount equal to their Dexterity or Willpower score, or a fixed amount like 2-3 points) [User's previous turn based on 51].
+    ◦ Players can spend a Fate point (with GM approval) to:
+        ▪ Ignore an attack that would have killed the character [User's previous turn based on 56].
+        ▪ Change a minor detail in the game world (e.g., knowing an NPC, finding a needed shop item) [User's previous turn based on 56].
+        ▪ Reroll a single die roll or add +2 to a single check [User's previous turn based on 56].
+    ◦ Fate points do not regenerate automatically but can be awarded by the GM for heroic actions, good roleplaying, or achieving certain goals.
+• 3.7. Exploding Die (WR&M Integration):
+    ◦ Whenever a player rolls a 6 on a d6 during a damage roll, or when making a critical hit (a 20 on a d20) during an attack, they may roll again and add the second result [User's previous turn based on 53, 58, 59]. This continues if another 6 is rolled, adding a thrilling element to high-impact moments.
+4. Combat
+Combat proceeds in rounds with clear steps for actions, damage, and morale.
+• 4.1. Rounds: One round equals 10 seconds in-game.
+• 4.2. Combat Order: At the start of combat, roll a d6 for each side. The highest roll goes first, with PCs winning ties.
+• 4.3. Actions: During their turn, a character can move and take one action (attack, cast spell, second move, etc.).
+• 4.4. Close Combat: Attacker and defender make an opposed STR roll. The winner deals their weapon's damage. The attacker wins ties.
+• 4.5. Ranged Combat: Attacker and defender make an opposed DEX roll. If the defender wins, they dodge the projectile but deal no damage.
+• 4.6. Critical Hit: Rolling a 20 on the d20 during an attack results in double weapon damage, even if the opponent wins the opposed roll. Ranged attacks against a creature cannot score a critical hit.
+• 4.7. Worn Weapons: Rolling a 1 on the d20 during an attack makes the weapon worn, reducing its damage to 1 until repaired.
+• 4.8. Morale (NPCs): The GM rolls 2d6 against an NPC's Morale score when they are shocked. If the roll is higher, the NPCs will flee or parley.
+• 4.9. Damage & Armor: Damage first reduces Armor points. Remaining damage is taken as Wounds. Wielding a shield reduces incoming damage by 1 (to a minimum of 1).
+• 4.10. Hit Dice & Death: When a creature takes Wounds, they roll their HD (d6s). If the result is less than or equal to the accumulated Wounds, the creature dies.
+• 4.11. Rest & Healing: A full day of rest in a safe location heals all Wounds, repairs Armor, and restores worn weapons. Expedient repairs can be made using Supply.
+5. Spellcasting
+Spellcasting involves Willpower and Stress, with new options for powering up spells.
+• 5.1. Casting Spells:
+    ◦ A caster needs at least one empty inventory slot (to take Stress), one free hand, and must be able to speak.
+    ◦ Make a WIL roll. Success means the spell is cast and one Stress is taken. Failure means no spell, no Stress.
+    ◦ A roll of 1 on the d20 triggers a Blunder from the Blunders table.
+    ◦ Taking a full turn to cast a spell automatically succeeds and bypasses the WIL roll, but still incurs one Stress.
+    ◦ The 'X' value for spells is equal to half the caster's WIL, rounded up.
+• 5.2. Mana Burning (WR&M Integration):
+    ◦ For spells with an 'X' value, a DURF spellcaster can choose to take an additional Stress (beyond the normal one for casting) before making their Willpower roll to cast the spell [User's previous turn based on 64].
+    ◦ In return, this increases the spell's 'X' value by 1, providing a tactical choice to power up spells at increased personal risk [User's previous turn based on 64].
+• 5.3. Magic Implements (WR&M Integration):
+    ◦ Special magical items like staffs, gauntlets, or rings can function as Magic Implements [User's previous turn based on 61].
+    ◦ An implement could allow a spellcaster to cast a known spell without making a Willpower roll or taking Stress a certain number of times per day [User's previous turn based on 61].
+    ◦ Alternatively, wielding an implement could provide a constant Buff to spellcasting rolls [User's previous turn based on 61].
+6. Equipment & Non-Player Characters
+Standard DURF equipment and NPC rules apply.
+• 6.1. Equipment:
+    ◦ Most items take one inventory slot, with some (weapons, armor) taking more.
+    ◦ Gold (GP) does not take inventory slots.
+    ◦ Supply (5 GP) can be exchanged for simple items or used to repair armor/weapons.
+    ◦ Ammo is abstract; a d6 roll after combat determines if it's depleted.
+    ◦ Light sources like Torches (burn for 6 Turns) and Lanterns (burn for 18 Turns) are crucial for dark environments.
+• 6.2. Non-Player Characters (NPCs):
+    ◦ NPCs are described by Skill (replaces STR/DEX/WIL), Hit Dice (HD), Armor, and Morale (ML).
+    ◦ NPCs cannot push themselves or gain Stress.
+    ◦ Their reaction to PCs can be determined by a 2d6 roll.
+    ◦ Hirelings can be recruited (Skill d4, 1 HD, weapon, 10 slots) for 1 GP per Skill per day, plus half a share of treasure if in combat.
+7. Traversal and Mapping Adventuring Sites
+The exploration of dungeons, caves, towers, and other adventuring sites is a core component, managed through time tracking and hazard awareness.
+• 7.1. Time Tracking During Exploration (DURF):
+    ◦ When exploring an adventuring site (like a dungeon or cave), time is tracked in "Turns."
+    ◦ One Turn represents 10 minutes of in-game time. This is sufficient for searching a room, picking a lock, or performing other significant activities.
+    ◦ Random Encounters: Each Turn, the GM rolls a d6. On a result of 1, an encounter occurs, and the GM consults a random encounter table.
+    ◦ For overworld travel, time is tracked in "Watches," where one Watch equals 4 hours of in-game time. A Watch covers approximately 6 miles of travel, hunting, or exploration, with a similar d6 roll for random encounters.
+• 7.2. Navigating Dark Environments (DURF):
+    ◦ Light sources are essential for navigating dark places below the earth or during the night.
+    ◦ Torches provide light for 6 Turns (1 hour).
+    ◦ Lanterns provide brighter light for 18 Turns (3 hours) but require a separate flask of oil.
+• 7.3. Non-Combat Hazards (WR&M Integration):
+    ◦ Adventuring sites present various hazards beyond direct combat. These can include:
+        ▪ Fall Damage: 1d6 damage per 3 yards fallen.
+        ▪ Suffocation/Drowning: 1d6 damage per round.
+        ▪ Poisons: Ranging from mild (1d3 initial damage, 1 damage/round until a successful Warrior check vs. DL 7) to lethal (1d6 initial damage, 2 damage/round until a successful Warrior check vs. DL 11).
+        ▪ Fire: 1d6 damage per round of exposure.
+    ◦ The GM will adjudicate these hazards, requiring PCs to use attributes and skills to mitigate risks inherent in traversing dangerous locales.
+8. Advancement
+Characters grow by accumulating XP and gaining Hit Dice.
+• 8.1. Earning XP: At the end of each session, characters gain:
+    ◦ 1 XP per 1 GP value of non-magical treasure brought back safely.
+    ◦ 25 XP per NPC Hit Die of each monster defeated or outsmarted.
+• 8.2. Gaining Hit Dice: When a PC earns XP equal to 1000 multiplied by their current HD, they automatically spend it to gain a new HD.
+• 8.3. Advancement Choices: When a PC's HD increases, they may choose one of the following:
+    ◦ Increase one attribute by 1 point (no attribute can exceed 8).
+    ◦ Learn a new spell.
+    ◦ Gain a talent (as suggested in Section 2.5) [User's previous turn based on 89].
+• 8.4. Retirement: A PC cannot have more than 12 HD and retires from adventuring upon gaining their thirteenth HD.
